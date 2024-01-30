@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Honk', system-ui;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/space-invaders/img/space-invaders-background-image.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  position: absolute;
+  top: 15px;
+  left: 559px;
+  font-size: 70px;
+}
+
+.menu-select {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+

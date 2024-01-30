@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Honk', system-ui;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-image: url("img/space-invaders-background-image.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.start {
+  position: fixed;
+  font-size: 50px;
+  border: solid 5px rgba(122, 7, 107, 0.932);
+  margin-left: 200px;
+  background: transparent;
+  padding: 8px;
+  border-radius: 10%;
+}
+
+.start:hover, .menu:hover {
+  cursor: pointer;
+  border-color: black;
+  box-shadow: 5px 10px black;
+  font-size: 52px;
+}
+
+.menu {
+  position: fixed;
+  font-size: 50px;
+  border: solid 5px rgba(122, 7, 107, 0.932);
+  margin-top: 275px;
+  margin-left: 200px;
+  background: transparent;
+  padding: 8px 70px;
+  border-radius: 10%;
+}
+
+.menu:link {
+  text-decoration: none;
+  color: none;
+}
+
+.display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  margin-top: 10px;
+  font-size: 70px;
+}
+
+.results {
+  border: solid 5px rgba(122, 7, 107, 0.932);
+  border-radius: 10%;
+  margin-top: 5px;
+  padding: 8px;
+  font-size: 40px;
+}
+
+.grid {
+  width: 750px;
+  height: 750px;
+  border: solid 5px rgba(122, 7, 107, 0.932);
+  border-radius: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("img/retro-space-background.webp");
+  background-size: 100%;
+}
+
+.grid div {
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.invader {
+  background-image: url("img/alien3.png");
+  background-size: 100%;
+}
+
+.shooter {
+  background-image: url("img/shooter-other.png");
+  background-size: 100%;
+}
+
+.laser {
+  background-image: url("img/laser.png");
+  background-size: 100%;
+}
+
+.explosion {
+  background-image: url("img/explosion-transparent-png-picture-1.png");
+  background-size: 100%;
+}
